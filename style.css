@@ -1,0 +1,33 @@
+#idP
+{
+	background-color: #fff345;
+	//Сверху, справа, снизу,слева
+	margin: 10px 10px 10px 10px;
+	padding: 0;
+	/*span будетвести себя как блок, display-меняетповедение тега
+	display-none-блок есть в html дереве, но его не видно
+	inline-block -строчным становится элементом*/
+	display: block;
+	position: absolute;
+	color: blue;
+	/*position: absolute; для них исп-ся left,right,bottom, а лучше в %*/
+	left: 50px;
+	font-weight: bold;
+	cursor: 
+	
+}
+
+/*hover - псевдоэлемет - блок меняетсяпри наведении цвет*/
+.divClass:hover{
+background-color: red;
+}
+
+.aClass{
+	/*пропадают настройки поумолчанию- пождчеркивание*/
+	text-decoration: none;
+}
+
+/*стили применяются конкретно к тегу p*/
+p{
+
+}
